@@ -180,8 +180,8 @@ body > header > img {
   border-radius: 50%;
   padding: 5px;
   border: 1px solid rgba(197, 0, 255, 0.5);
-  -webkit-animation: neon-efect infinite alternate 2.2716427625s ease-in-out;
-          animation: neon-efect infinite alternate 2.2716427625s ease-in-out;
+  -webkit-animation: neon-efect infinite alternate 2.2255254514s ease-in-out;
+          animation: neon-efect infinite alternate 2.2255254514s ease-in-out;
 }
 body > header > h1 {
   position: relative;
@@ -192,7 +192,7 @@ body > header > h1 {
 }
 body > header > h1::before {
   position: absolute;
-  bottom: 0;
+  bottom: -5px;
   content: " ";
   display: block;
   background-color: #FF05BC;
@@ -243,32 +243,32 @@ body > main > ul > li > a:hover > i {
   transform: scale(1.7) rotate(360deg);
 }
 body > main > ul > li:nth-child(1) > a {
-  -webkit-animation: neon-efect-suave infinite alternate 0.5693586387s ease-in-out;
-          animation: neon-efect-suave infinite alternate 0.5693586387s ease-in-out;
+  -webkit-animation: neon-efect-suave infinite alternate 0.9696117287s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.9696117287s ease-in-out;
 }
 body > main > ul > li:nth-child(2) > a {
-  -webkit-animation: neon-efect-suave infinite alternate 0.0231120433s ease-in-out;
-          animation: neon-efect-suave infinite alternate 0.0231120433s ease-in-out;
+  -webkit-animation: neon-efect-suave infinite alternate 0.2643039333s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.2643039333s ease-in-out;
 }
 body > main > ul > li:nth-child(3) > a {
-  -webkit-animation: neon-efect-suave infinite alternate 0.6569732543s ease-in-out;
-          animation: neon-efect-suave infinite alternate 0.6569732543s ease-in-out;
+  -webkit-animation: neon-efect-suave infinite alternate 0.5382876958s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.5382876958s ease-in-out;
 }
 body > main > ul > li:nth-child(4) > a {
-  -webkit-animation: neon-efect-suave infinite alternate 0.1313274902s ease-in-out;
-          animation: neon-efect-suave infinite alternate 0.1313274902s ease-in-out;
+  -webkit-animation: neon-efect-suave infinite alternate 0.4710773023s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.4710773023s ease-in-out;
 }
 body > main > ul > li:nth-child(5) > a {
-  -webkit-animation: neon-efect-suave infinite alternate 0.5301397327s ease-in-out;
-          animation: neon-efect-suave infinite alternate 0.5301397327s ease-in-out;
+  -webkit-animation: neon-efect-suave infinite alternate 0.5375365472s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.5375365472s ease-in-out;
 }
 body > main > ul > li:nth-child(6) > a {
-  -webkit-animation: neon-efect-suave infinite alternate 0.1163575369s ease-in-out;
-          animation: neon-efect-suave infinite alternate 0.1163575369s ease-in-out;
+  -webkit-animation: neon-efect-suave infinite alternate 0.4352585754s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.4352585754s ease-in-out;
 }
 body > main > ul > li:nth-child(7) > a {
-  -webkit-animation: neon-efect-suave infinite alternate 0.2552682455s ease-in-out;
-          animation: neon-efect-suave infinite alternate 0.2552682455s ease-in-out;
+  -webkit-animation: neon-efect-suave infinite alternate 0.0484912405s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.0484912405s ease-in-out;
 }
 body > main > ul > li.youtube > a:hover {
   color: #fff;

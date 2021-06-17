@@ -131,7 +131,7 @@ body {
 
             &::before{
                 position: absolute;
-                bottom: 0;
+                bottom: -5px;
                 content: " ";
                 display: block;
                 background-color: #FF05BC;
