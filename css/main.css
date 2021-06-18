@@ -1,3 +1,8 @@
+html, body {
+  background: #290045;
+  background: linear-gradient(45deg, #00165b 0%, #000f3b 100%);
+}
+
 @-webkit-keyframes neon-efect {
   0% {
     border: 2px solid #FF05BC;
@@ -20,6 +25,7 @@
     box-shadow: none;
   }
 }
+
 @keyframes neon-efect {
   0% {
     border: 2px solid #FF05BC;
@@ -180,8 +186,8 @@ body > header > img {
   border-radius: 50%;
   padding: 5px;
   border: 1px solid rgba(197, 0, 255, 0.5);
-  -webkit-animation: neon-efect infinite alternate 2.2255254514s ease-in-out;
-          animation: neon-efect infinite alternate 2.2255254514s ease-in-out;
+  -webkit-animation: neon-efect infinite alternate 2.5238001643s ease-in-out;
+          animation: neon-efect infinite alternate 2.5238001643s ease-in-out;
 }
 body > header > h1 {
   position: relative;
@@ -243,32 +249,40 @@ body > main > ul > li > a:hover > i {
   transform: scale(1.7) rotate(360deg);
 }
 body > main > ul > li:nth-child(1) > a {
-  -webkit-animation: neon-efect-suave infinite alternate 0.9696117287s ease-in-out;
-          animation: neon-efect-suave infinite alternate 0.9696117287s ease-in-out;
+  -webkit-animation: neon-efect-suave infinite alternate 0.5413856409s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.5413856409s ease-in-out;
 }
 body > main > ul > li:nth-child(2) > a {
-  -webkit-animation: neon-efect-suave infinite alternate 0.2643039333s ease-in-out;
-          animation: neon-efect-suave infinite alternate 0.2643039333s ease-in-out;
+  -webkit-animation: neon-efect-suave infinite alternate 0.841249732s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.841249732s ease-in-out;
 }
 body > main > ul > li:nth-child(3) > a {
-  -webkit-animation: neon-efect-suave infinite alternate 0.5382876958s ease-in-out;
-          animation: neon-efect-suave infinite alternate 0.5382876958s ease-in-out;
+  -webkit-animation: neon-efect-suave infinite alternate 0.0917262574s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.0917262574s ease-in-out;
 }
 body > main > ul > li:nth-child(4) > a {
-  -webkit-animation: neon-efect-suave infinite alternate 0.4710773023s ease-in-out;
-          animation: neon-efect-suave infinite alternate 0.4710773023s ease-in-out;
+  -webkit-animation: neon-efect-suave infinite alternate 0.2394547219s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.2394547219s ease-in-out;
 }
 body > main > ul > li:nth-child(5) > a {
-  -webkit-animation: neon-efect-suave infinite alternate 0.5375365472s ease-in-out;
-          animation: neon-efect-suave infinite alternate 0.5375365472s ease-in-out;
+  -webkit-animation: neon-efect-suave infinite alternate 0.267400161s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.267400161s ease-in-out;
 }
 body > main > ul > li:nth-child(6) > a {
-  -webkit-animation: neon-efect-suave infinite alternate 0.4352585754s ease-in-out;
-          animation: neon-efect-suave infinite alternate 0.4352585754s ease-in-out;
+  -webkit-animation: neon-efect-suave infinite alternate 0.899749902s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.899749902s ease-in-out;
 }
 body > main > ul > li:nth-child(7) > a {
-  -webkit-animation: neon-efect-suave infinite alternate 0.0484912405s ease-in-out;
-          animation: neon-efect-suave infinite alternate 0.0484912405s ease-in-out;
+  -webkit-animation: neon-efect-suave infinite alternate 0.9494174543s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.9494174543s ease-in-out;
+}
+body > main > ul > li:nth-child(8) > a {
+  -webkit-animation: neon-efect-suave infinite alternate 0.0338482383s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.0338482383s ease-in-out;
+}
+body > main > ul > li:nth-child(9) > a {
+  -webkit-animation: neon-efect-suave infinite alternate 0.3666749228s ease-in-out;
+          animation: neon-efect-suave infinite alternate 0.3666749228s ease-in-out;
 }
 body > main > ul > li.youtube > a:hover {
   color: #fff;
@@ -317,6 +331,20 @@ body > main > ul > li.linkedin > a:hover {
   box-shadow: 0px 0px 10px 0px #017cb7 !important;
   border-color: #017cb7 !important;
   background-color: #017cb7;
+  text-shadow: 0px 0px 10px white;
+}
+body > main > ul > li.codepen > a:hover {
+  color: #fff;
+  box-shadow: 0px 0px 10px 0px #131417 !important;
+  border-color: #131417 !important;
+  background-color: #131417;
+  text-shadow: 0px 0px 10px white;
+}
+body > main > ul > li.github > a:hover {
+  color: #fff;
+  box-shadow: 0px 0px 10px 0px #24292E !important;
+  border-color: #24292E !important;
+  background-color: #24292E;
   text-shadow: 0px 0px 10px white;
 }
 body footer {

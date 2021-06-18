@@ -1,3 +1,9 @@
+html, body{
+    background: rgb(41, 0, 69);
+    background: linear-gradient(45deg, rgba(0, 22, 91, 1) 0%, rgb(0, 15, 59) 100%);
+}
+
+
 @mixin neon-color($color) {
     box-shadow: 0px 0px 10px 0px $color !important;
     border-color: $color !important;
@@ -188,7 +194,7 @@ body {
 
                 }
 
-                @for $i from 1 to 8 {
+                @for $i from 1 to 10 {
                     &:nth-child(#{$i})>a{
                         @include imagen-neon(random(), neon-efect-suave);
     
@@ -229,6 +235,18 @@ body {
                     color: #fff;
                     @include neon-color(#017cb7)
                 }
+                &.codepen > a:hover {
+                    color: #fff;
+                    @include neon-color(#131417)
+                }
+
+                &.github > a:hover {
+                    color: #fff;
+                    @include neon-color(#24292E)
+                }
+                
+
+                
             }
 
             
